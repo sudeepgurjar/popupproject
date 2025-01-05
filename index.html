@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Header</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+    }
+
+    .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      
+    }
+
+    .menu {
+      display: flex;
+      gap: 20px;
+    }
+
+    .menu a {
+      text-decoration: none;
+      color: #fff;
+      transition: color 0.3s;
+      font-size: 30px;
+    }
+
+    .menu a:hover {
+      color: #ffa500;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #ffa500;
+      color: #fff;
+      border: none;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      width: 100px;
+      height: 50px;
+
+    }
+
+    .btn:hover {
+      background-color: #ff7f00;
+    }
+    #loo{
+        border-radius: 20px;
+    }
+    
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="https://img.freepik.com/premium-vector/sports-car-logo-icon-motor-vehicle-silhouettes-auto-garage-dealership-branding_658271-5644.jpg" alt="logo" height="80px" width="80px" id="loo"></div>
+    <nav class="menu">
+      <a href="#about">About</a>
+      <a href="#vlog">Vlog</a>
+      <a href="#connect">Contect</a>
+      <a href="#img">Images</a>
+    </nav>
+    <button class="btn">Counter</button>
+  </header>
+  <div class="imgs">
+  <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960" alt="" height="800px" width="1500px">
+
+</div>
+<script src="./script.js"></script>
+</body>
+</html>
